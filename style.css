@@ -1,0 +1,106 @@
+body {
+	background-color: darkgray;
+	color: black;
+	font-family: initial;
+	text-align: center;
+}
+
+#img-resize{
+	width: 200px;
+	border-radius: 50%;
+}
+
+
+.box-design	{background: rgb(212,220,219);
+    padding: 10px;
+    margin: 40px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 25px;
+}
+
+.box-design:hover {
+	background-color: white;
+}
+
+.container {
+	width: 800px;
+	margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+h1, h2, h3 {
+	font-family: cursive;
+}
+
+h1 {
+	color: crimson;
+	font-weight: 950;
+	letter-spacing: 6px;
+	text-transform: uppercase;
+}
+
+h2 {
+	color: darkmagenta;
+	font-weight: 800;
+}
+
+
+a {
+	text-decoration: none;
+	color: darkgreen;
+	transition: color 0.9s ease;
+}
+
+a:hover {
+	color: red;
+}
+
+p {
+color: black;
+}
+
+.btn-green {
+	background-color: darkmagenta;
+	color: white;
+	border-radius: 10px;
+	padding: 5px;
+	transition: color 0.9s ease;
+}
+
+.btn-green:hover {
+	background-color: black;
+	text-transform: uppercase;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px ;
+}
+
+#introduction p {
+	margin-bottom: 20px;
+}
